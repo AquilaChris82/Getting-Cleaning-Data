@@ -1,82 +1,170 @@
-|**VARIABLE NAME**|**VARIABLE NUMBER**|**VARIABLE TYPE**|**UNITS**|**VALUES**|
-|SUBJECT|1|Numeric||1..30 Integer representing Subject ID|
-|ACTIVITY NAME|2|Text||1.WALKING 2.WALKING_UPSTAIRS 3.WALKING_DOWNSTAIRS 4.SITTING 5.STANDING 6.LAYING|
-|	tBodyAcc-mean()-X	|	3	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyAcc-mean()-Y	|	4	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyAcc-mean()-Z	|	5	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyAcc-std()-X	|	6	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyAcc-std()-Y	|	7	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyAcc-std()-Z	|	8	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tGravityAcc-mean()-X	|	9	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tGravityAcc-mean()-Y	|	10	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tGravityAcc-mean()-Z	|	11	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tGravityAcc-std()-X	|	12	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tGravityAcc-std()-Y	|	13	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tGravityAcc-std()-Z	|	14	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyAccJerk-mean()-X	|	15	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyAccJerk-mean()-Y	|	16	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyAccJerk-mean()-Z	|	17	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyAccJerk-std()-X	|	18	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyAccJerk-std()-Y	|	19	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyAccJerk-std()-Z	|	20	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyGyro-mean()-X	|	21	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyGyro-mean()-Y	|	22	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyGyro-mean()-Z	|	23	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyGyro-std()-X	|	24	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyGyro-std()-Y	|	25	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyGyro-std()-Z	|	26	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyGyroJerk-mean()-X	|	27	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyGyroJerk-mean()-Y	|	28	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyGyroJerk-mean()-Z	|	29	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyGyroJerk-std()-X	|	30	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyGyroJerk-std()-Y	|	31	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyGyroJerk-std()-Z	|	32	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyAccMag-mean()	|	33	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyAccMag-std()	|	34	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tGravityAccMag-mean()	|	35	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tGravityAccMag-std()	|	36	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyAccJerkMag-mean()	|	37	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyAccJerkMag-std()	|	38	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyGyroMag-mean()	|	39	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyGyroMag-std()	|	40	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyGyroJerkMag-mean()	|	41	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	tBodyGyroJerkMag-std()	|	42	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyAcc-mean()-X	|	43	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyAcc-mean()-Y	|	44	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyAcc-mean()-Z	|	45	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyAcc-std()-X	|	46	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyAcc-std()-Y	|	47	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyAcc-std()-Z	|	48	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyAcc-meanFreq()-X	|	49	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyAcc-meanFreq()-Y	|	50	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyAcc-meanFreq()-Z	|	51	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyAccJerk-mean()-X	|	52	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyAccJerk-mean()-Y	|	53	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyAccJerk-mean()-Z	|	54	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyAccJerk-std()-X	|	55	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyAccJerk-std()-Y	|	56	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyAccJerk-std()-Z	|	57	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyAccJerk-meanFreq()-X	|	58	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyAccJerk-meanFreq()-Y	|	59	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyAccJerk-meanFreq()-Z	|	60	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyGyro-mean()-X	|	61	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyGyro-mean()-Y	|	62	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyGyro-mean()-Z	|	63	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyGyro-std()-X	|	64	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyGyro-std()-Y	|	65	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyGyro-std()-Z	|	66	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyGyro-meanFreq()-X	|	67	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyGyro-meanFreq()-Y	|	68	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyGyro-meanFreq()-Z	|	69	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyAccMag-mean()	|	70	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyAccMag-std()	|	71	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyAccMag-meanFreq()	|	72	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyBodyAccJerkMag-mean()	|	73	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyBodyAccJerkMag-std()	|	74	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyBodyAccJerkMag-meanFreq()	|	75	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyBodyGyroMag-mean()	|	76	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyBodyGyroMag-std()	|	77	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyBodyGyroMag-meanFreq()	|	78	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyBodyGyroJerkMag-mean()	|	79	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyBodyGyroJerkMag-std()	|	80	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
-|	fBodyBodyGyroJerkMag-meanFreq()	|	81	|	Numeric	|	Hz	|	Mean of given measure (mean, std) for stated Subject and Activity	|
+DATA DICTIONARY - 
+1 SUBJECT
+	integer representing Subject ID
+	1..30
+2 ACTIVITY NAME
+	name of activity
+	1.WALKING
+	2.WALKING_UPSTAIRS
+	3.WALKING_DOWNSTAIRS
+	4.SITTING
+	5.STANDING
+	6.LAYING
+3	tBodyAcc-mean()-X	
+	mean value of measure tBodyAcc-mean()-X for Subject, ActivityName in Hz
+4	tBodyAcc-mean()-Y	
+	mean value of measure tBodyAcc-mean()-Y for Subject, ActivityName in Hz
+5	tBodyAcc-mean()-Z	
+	mean value of measure tBodyAcc-mean()-Z for Subject, ActivityName in Hz
+6	tBodyAcc-std()-X	
+	mean value of measure tBodyAcc-std()-X for Subject, ActivityName in Hz
+7	tBodyAcc-std()-Y	
+	mean value of measure tBodyAcc-std()-Y for Subject, ActivityName in Hz
+8	tBodyAcc-std()-Z	
+	mean value of measure tBodyAcc-std()-Z for Subject, ActivityName in Hz
+9	tGravityAcc-mean()-X	
+	mean value of measure tGravityAcc-mean()-X for Subject, ActivityName in Hz
+10	tGravityAcc-mean()-Y	
+	mean value of measure tGravityAcc-mean()-Y for Subject, ActivityName in Hz
+11	tGravityAcc-mean()-Z	
+	mean value of measure tGravityAcc-mean()-Z for Subject, ActivityName in Hz
+12	tGravityAcc-std()-X	
+	mean value of measure tGravityAcc-std()-X for Subject, ActivityName in Hz
+13	tGravityAcc-std()-Y	
+	mean value of measure tGravityAcc-std()-Y for Subject, ActivityName in Hz
+14	tGravityAcc-std()-Z	
+	mean value of measure tGravityAcc-std()-Z for Subject, ActivityName in Hz
+15	tBodyAccJerk-mean()-X	
+	mean value of measure tBodyAccJerk-mean()-X for Subject, ActivityName in Hz
+16	tBodyAccJerk-mean()-Y	
+	mean value of measure tBodyAccJerk-mean()-Y for Subject, ActivityName in Hz
+17	tBodyAccJerk-mean()-Z	
+	mean value of measure tBodyAccJerk-mean()-Z for Subject, ActivityName in Hz
+18	tBodyAccJerk-std()-X	
+	mean value of measure tBodyAccJerk-std()-X for Subject, ActivityName in Hz
+19	tBodyAccJerk-std()-Y	
+	mean value of measure tBodyAccJerk-std()-Y for Subject, ActivityName in Hz
+20	tBodyAccJerk-std()-Z	
+	mean value of measure tBodyAccJerk-std()-Z for Subject, ActivityName in Hz
+21	tBodyGyro-mean()-X	
+	mean value of measure tBodyGyro-mean()-X for Subject, ActivityName in Hz
+22	tBodyGyro-mean()-Y	
+	mean value of measure tBodyGyro-mean()-Y for Subject, ActivityName in Hz
+23	tBodyGyro-mean()-Z	
+	mean value of measure tBodyGyro-mean()-Z for Subject, ActivityName in Hz
+24	tBodyGyro-std()-X	
+	mean value of measure tBodyGyro-std()-X for Subject, ActivityName in Hz
+25	tBodyGyro-std()-Y	
+	mean value of measure tBodyGyro-std()-Y for Subject, ActivityName in Hz
+26	tBodyGyro-std()-Z	
+	mean value of measure tBodyGyro-std()-Z for Subject, ActivityName in Hz
+27	tBodyGyroJerk-mean()-X	
+	mean value of measure tBodyGyroJerk-mean()-X for Subject, ActivityName in Hz
+28	tBodyGyroJerk-mean()-Y	
+	mean value of measure tBodyGyroJerk-mean()-Y for Subject, ActivityName in Hz
+29	tBodyGyroJerk-mean()-Z	
+	mean value of measure tBodyGyroJerk-mean()-Z for Subject, ActivityName in Hz
+30	tBodyGyroJerk-std()-X	
+	mean value of measure tBodyGyroJerk-std()-X for Subject, ActivityName in Hz
+31	tBodyGyroJerk-std()-Y	
+	mean value of measure tBodyGyroJerk-std()-Y for Subject, ActivityName in Hz
+32	tBodyGyroJerk-std()-Z	
+	mean value of measure tBodyGyroJerk-std()-Z for Subject, ActivityName in Hz
+33	tBodyAccMag-mean()	
+	mean value of measure tBodyAccMag-mean() for Subject, ActivityName in Hz
+34	tBodyAccMag-std()	
+	mean value of measure tBodyAccMag-std() for Subject, ActivityName in Hz
+35	tGravityAccMag-mean()	
+	mean value of measure tGravityAccMag-mean() for Subject, ActivityName in Hz
+36	tGravityAccMag-std()	
+	mean value of measure tGravityAccMag-std() for Subject, ActivityName in Hz
+37	tBodyAccJerkMag-mean()	
+	mean value of measure tBodyAccJerkMag-mean() for Subject, ActivityName in Hz
+38	tBodyAccJerkMag-std()	
+	mean value of measure tBodyAccJerkMag-std() for Subject, ActivityName in Hz
+39	tBodyGyroMag-mean()	
+	mean value of measure tBodyGyroMag-mean() for Subject, ActivityName in Hz
+40	tBodyGyroMag-std()	
+	mean value of measure tBodyGyroMag-std() for Subject, ActivityName in Hz
+41	tBodyGyroJerkMag-mean()	
+	mean value of measure tBodyGyroJerkMag-mean() for Subject, ActivityName in Hz
+42	tBodyGyroJerkMag-std()	
+	mean value of measure tBodyGyroJerkMag-std() for Subject, ActivityName in Hz
+43	fBodyAcc-mean()-X	
+	mean value of measure fBodyAcc-mean()-X for Subject, ActivityName in Hz
+44	fBodyAcc-mean()-Y	
+	mean value of measure fBodyAcc-mean()-Y for Subject, ActivityName in Hz
+45	fBodyAcc-mean()-Z	
+	mean value of measure fBodyAcc-mean()-Z for Subject, ActivityName in Hz
+46	fBodyAcc-std()-X	
+	mean value of measure fBodyAcc-std()-X for Subject, ActivityName in Hz
+47	fBodyAcc-std()-Y	
+	mean value of measure fBodyAcc-std()-Y for Subject, ActivityName in Hz
+48	fBodyAcc-std()-Z	
+	mean value of measure fBodyAcc-std()-Z for Subject, ActivityName in Hz
+49	fBodyAcc-meanFreq()-X	
+	mean value of measure fBodyAcc-meanFreq()-X for Subject, ActivityName in Hz
+50	fBodyAcc-meanFreq()-Y	
+	mean value of measure fBodyAcc-meanFreq()-Y for Subject, ActivityName in Hz
+51	fBodyAcc-meanFreq()-Z	
+	mean value of measure fBodyAcc-meanFreq()-Z for Subject, ActivityName in Hz
+52	fBodyAccJerk-mean()-X	
+	mean value of measure fBodyAccJerk-mean()-X for Subject, ActivityName in Hz
+53	fBodyAccJerk-mean()-Y	
+	mean value of measure fBodyAccJerk-mean()-Y for Subject, ActivityName in Hz
+54	fBodyAccJerk-mean()-Z	
+	mean value of measure fBodyAccJerk-mean()-Z for Subject, ActivityName in Hz
+55	fBodyAccJerk-std()-X	
+	mean value of measure fBodyAccJerk-std()-X for Subject, ActivityName in Hz
+56	fBodyAccJerk-std()-Y	
+	mean value of measure fBodyAccJerk-std()-Y for Subject, ActivityName in Hz
+57	fBodyAccJerk-std()-Z	
+	mean value of measure fBodyAccJerk-std()-Z for Subject, ActivityName in Hz
+58	fBodyAccJerk-meanFreq()-X	
+	mean value of measure fBodyAccJerk-meanFreq()-X for Subject, ActivityName in Hz
+59	fBodyAccJerk-meanFreq()-Y	
+	mean value of measure fBodyAccJerk-meanFreq()-Y for Subject, ActivityName in Hz
+60	fBodyAccJerk-meanFreq()-Z	
+	mean value of measure fBodyAccJerk-meanFreq()-Z for Subject, ActivityName in Hz
+61	fBodyGyro-mean()-X	
+	mean value of measure fBodyGyro-mean()-X for Subject, ActivityName in Hz
+62	fBodyGyro-mean()-Y	
+	mean value of measure fBodyGyro-mean()-Y for Subject, ActivityName in Hz
+63	fBodyGyro-mean()-Z	
+	mean value of measure fBodyGyro-mean()-Z for Subject, ActivityName in Hz
+64	fBodyGyro-std()-X	
+	mean value of measure fBodyGyro-std()-X for Subject, ActivityName in Hz
+65	fBodyGyro-std()-Y	
+	mean value of measure fBodyGyro-std()-Y for Subject, ActivityName in Hz
+66	fBodyGyro-std()-Z	
+	mean value of measure fBodyGyro-std()-Z for Subject, ActivityName in Hz
+67	fBodyGyro-meanFreq()-X	
+	mean value of measure fBodyGyro-meanFreq()-X for Subject, ActivityName in Hz
+68	fBodyGyro-meanFreq()-Y	
+	mean value of measure fBodyGyro-meanFreq()-Y for Subject, ActivityName in Hz
+69	fBodyGyro-meanFreq()-Z	
+	mean value of measure fBodyGyro-meanFreq()-Z for Subject, ActivityName in Hz
+70	fBodyAccMag-mean()	
+	mean value of measure fBodyAccMag-mean() for Subject, ActivityName in Hz
+71	fBodyAccMag-std()	
+	mean value of measure fBodyAccMag-std() for Subject, ActivityName in Hz
+72	fBodyAccMag-meanFreq()	
+	mean value of measure fBodyAccMag-meanFreq() for Subject, ActivityName in Hz
+73	fBodyBodyAccJerkMag-mean()	
+	mean value of measure fBodyBodyAccJerkMag-mean() for Subject, ActivityName in Hz
+74	fBodyBodyAccJerkMag-std()	
+	mean value of measure fBodyBodyAccJerkMag-std() for Subject, ActivityName in Hz
+75	fBodyBodyAccJerkMag-meanFreq()	
+	mean value of measure fBodyBodyAccJerkMag-meanFreq() for Subject, ActivityName in Hz
+76	fBodyBodyGyroMag-mean()	
+	mean value of measure fBodyBodyGyroMag-mean() for Subject, ActivityName in Hz
+77	fBodyBodyGyroMag-std()	
+	mean value of measure fBodyBodyGyroMag-std() for Subject, ActivityName in Hz
+78	fBodyBodyGyroMag-meanFreq()	
+	mean value of measure fBodyBodyGyroMag-meanFreq() for Subject, ActivityName in Hz
+79	fBodyBodyGyroJerkMag-mean()	
+	mean value of measure fBodyBodyGyroJerkMag-mean() for Subject, ActivityName in Hz
+80	fBodyBodyGyroJerkMag-std()	
+	mean value of measure fBodyBodyGyroJerkMag-std() for Subject, ActivityName in Hz
+81	fBodyBodyGyroJerkMag-meanFreq()	
+	mean value of measure fBodyBodyGyroJerkMag-meanFreq() for Subject, ActivityName in Hz
